@@ -1,9 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
-*main - mainentrypoint
+* main - entry point of the program
 *
-*return:always0(success)
+* Return: Always 0 (indicating success)
 */
 int main(void)
 {
