@@ -6,11 +6,17 @@
   */
 int main(void)
 {
-int n;
-for (n = 0; n <= 9; n++)
+int n = 97;
+while (n <= 122)
 {
-printf("%d", n);
+if (n == 101 || n == 113)
+{
+n++;
+continue;
 }
-printf("\n");
+putchar(n);
+n++;
+}
+putchar('\n');
 return (0);
 }
