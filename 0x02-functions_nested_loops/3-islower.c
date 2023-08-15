@@ -7,11 +7,11 @@
 * Return: 1 for lowercase character or 0 for anything else
 */
 
-int_islower(intc)
+int _islower(intc)
 
 {
 
-if(c >= 97 && c <= 122)
+if (c >= 97 && c <= 122)
 {
 
 return (1);
