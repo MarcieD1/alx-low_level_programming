@@ -8,8 +8,8 @@
  */
 char *leet(char *str)
 {
- char leet_chars[] = "aeotlAEOTL";
- char leet_replacements[] = "430710";
+ char leet_chars[] = "aAeEoOtTlL";
+ char leet_replacements[] = "4433007711";
 
  int i, j;
 
