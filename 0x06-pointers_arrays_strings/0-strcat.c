@@ -3,13 +3,12 @@
 
 /**
 * _strcat - conctenates two strings
-* @des: The destination string
+* @dest: The destination string
 * @src: the source string
 * Return: A pointer to the resulting string dest
 */
 
 char *_strcat(char *dest, char *src)
-
 {
 int dlen = 0, i;
 
