@@ -25,5 +25,5 @@ dest_end[i] = src[i];
 
 dest_end[i] = '\0';
 
-return dest;
+return (dest);
 }
