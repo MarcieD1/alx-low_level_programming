@@ -22,8 +22,8 @@ p++;
 }
 
 if (*p == '\0')
-return haystack;
+return (haystack);
 }
 
-return NULL;
+return (0);
 }
