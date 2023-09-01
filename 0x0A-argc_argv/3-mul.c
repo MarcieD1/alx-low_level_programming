@@ -25,5 +25,5 @@ printf("Error\n");
 return (1);
 }
 
-retrun (0);
+return (0);
 }
