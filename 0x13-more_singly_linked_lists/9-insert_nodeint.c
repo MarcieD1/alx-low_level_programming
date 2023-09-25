@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index - retrieve a new node in a linked list,
+ * insert_nodeint_at_index - retrieve a new node in a linked list,
  * @head: pointer to the first element of the list
  * @idx: node desired position to retrieve
  * @n: data to be stored in the new node
