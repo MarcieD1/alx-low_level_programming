@@ -1,18 +1,19 @@
-#ifndef _LISTS_H_
-#define _lISTS_H
+#ifndef LISTS_H_
+#define LISTS_H
 
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
-* struct listint_g - singly linked list
-* for creating nodes of a singly linked list
-*
-* @n: integer data
-* @next: points to the next node of a list
-*/
+ * struct listint_g - singly linked list
+ * for creating nodes of a singly linked list
+ *
+ * @n: integer data
+ * @next: points to the next node of a list
+ */
 typedef struct listint_g
 {
+
 int n;
 struct listint_g *next;
 } listint_t;
