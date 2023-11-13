@@ -23,7 +23,6 @@ int main(void)
 	printf("Concatenated string: %s\n", dest);
 
 	result = _strcmp(str1, str2);
-
 	if (result < 0)
 	printf("%s is less than %s\n", str1, str2);
 	else if (result > 0)
