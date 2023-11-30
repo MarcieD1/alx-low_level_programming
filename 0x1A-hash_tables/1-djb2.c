@@ -1,3 +1,9 @@
+/**
+ * hash_djb2 - Hash function using the djb2 algorithm
+ * @str: The string to be hashed
+ *
+ * Return: The hash value generated from the input string
+ */
 unsigned long int hash_djb2(const unsigned char *str)
 {
 	unsigned long int hash;
